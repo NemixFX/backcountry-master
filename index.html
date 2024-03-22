@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+</head>
+<body>
+<header class="container">
+    <div class="wrap">
+        <nav class="desktop_menu ">
+            <div class="header-up">
+                <div class="call">
+                    <div class="contact">+7 777 777 77 77</div>
+                    <div class="request-call">заказать звонок</div>
+                </div>
+                <div class="search">
+                    <div class="icon-search"></div>
+                </div>
+            </div>
+            <div class="menu-item" hidden>
+                <a href="#">Отчеты</a>
+                <a href="#">item2</a>
+                <a href="#">item3</a>
+                <a href="#">item4</a>
+                <a href="#">item5</a>
+                <a href="#">item6</a>
+            </div>
+            <div class="main-menu">
+                <img class="logo" src="img/logo.png" alt="logo"/>
+            </div>
+        </nav>
+    </div>
+    <nav class="mobile_menu_header">
+        <div onclick="burger_add()" class="burger">
+            <div class="icon_burger"></div>
+        </div>
+        <div class="logo">
+            <img class="logo" src="img/logo.png" alt="logo"/>
+        </div>
+        <div class="search">
+            <div class="icon-search"></div>
+        </div>
+    </nav>
+    <div class="mobile_menu mobile_menu_hidden">
+        <div onclick="burger_rem()" class="back">
+            <div class="icon_back"></div>
+        </div>
+        <ul>
+            <li><a href=""><h1>Активные туры</h1></a></li>
+            <li><a href="">Организация тура</a></li>
+            <li><a href="">Где живем</a></li>
+            <li><a href="">Аренда снаряжения</a></li>
+            <li><a href="">Как до нас добраться</a></li>
+        </ul>
+        <ul>
+            <li><a href=""><h1>Интернет-магазин</h1></a></li>
+            <li><a href="">Сплитборды</a></li>
+            <li><a href="">Лавинное оборудование</a></li>
+            <li><a href="">Лыжи</a></li>
+        </ul>
+        <div class="hr"></div>
+        <ul>
+            <li><a href="">Отчеты</a></li>
+            <li><a href="">Статьи</a></li>
+        </ul>
+        <div class="phone center-center">
+            <div class="icon_phone"></div>
+            <a class="buy_phone" href="">Заказать звонок</a>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <div class=" background-gl "></div>
+    <div class="banner wrap">
+        <div class="socials">
+            <span><img src="img/icon/instagram.png" alt="instagram"></span>
+            <span><img src="img/icon/facebook.png" alt="facebook"></span>
+            <span><img src="img/icon/vk.png" alt="vk"></span>
+        </div>
+        <div class="text-button">
+            <h1>Скитур, бэккантри
+                и фрирайд туры
+                с гидами в Риддере</h1>
+            <a href="#">Связаться с нами</a>
+        </div>
+        <div></div>
+    </div>
+    <span class="path">
+        <img src="img/icon/Vector.svg" alt="path">
+    </span>
+    <div>
+        <section class="idea wrap">
+            <div class="idea-item">
+                <div class="image">
+                    <img src="img/icon/money.png">
+                </div>
+                <p>Наличный и безналичный расчет</p>
+            </div>
+            <div class="idea-item">
+                <div class="image">
+                    <img src="img/icon/auto.png">
+                </div>
+                <p>Предоставляем полный трансфер из Усть-Каменогорска</p>
+            </div>
+            <div class="idea-item">
+                <div class="image">
+                    <img src="img/icon/house.png">
+                </div>
+                <p>Проживание в горном приюте с видом на лес</p>
+            </div>
+            <div class="idea-item">
+                <div class="image">
+                    <img src="img/icon/secc.png">
+                </div>
+                <p>Гарантия нетронутого склона</p>
+            </div>
+        </section>
+        <section class="bg-2">
+            <div class="block wrap">
+                <div class="image">
+                    <img src="img/group-active-people-mountain-skis-splitboard-ski-touring-winter-day.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1 class="title">Экстремальные туры в горах Риддера для любителей скитура, фрирайда, бэккантри</h1>
+                    <p>Наша компания занимается организацией экстремального отдыха в Казахстане. В нашем календаре
+                        еженедельные туры выходного дня, а также мы готовы организовать недельные программы.
+                    </p>
+                    <p>
+                        У нас больше 60 маршрутов на Ивановском, Сержинском, Проходном, Черепановском и Холодном
+                        хребтах, в районе г.Риддер, Казахстан. Походы организовываются каждую неделю, согласно календаря
+                        походов на сайте <b>backcountry.kz</b>
+                    </p>
+                    <p>
+                        Имеющиеся ростовки сплитбордов: 165, 165, 170, 180 см.<br>
+                        Имеющиеся ростовки скитурных лыж: 164, 175, 180, 186 см.
+                    </p>
+                    <a class="primary-link" href="#">Подробнее</a>
+                </div>
+            </div>
+        </section>
+        <section class="tour wrap relative">
+            <h1 class="title">Активные туры</h1>
+            <div class="slider_block">
+                <section class="regular slider">
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/group-active-people-mountain-skis-splitboard-ski-touring-winter-day.jpg">
+                            <li style="--i:0;">
+                                <div>
+                                    <a href="">6</a>
+                                    <p>опыт</p>
+                                </div>
+                            </li>
+                            <li style="--i:1;">
+                                <div>
+                                    <a href="">4</a>
+                                    <p>кворум</p>
+                                </div>
+                            </li>
+                            <li style="--i:2;">
+                                <div>
+                                    <a href="">3</a>
+                                    <p>сложность</p>
+                                </div>
+                            </li>
+                            <li style="--i:3;">
+                                <div>
+                                    <a href="">0/6</a>
+                                    <p>места</p>
+                                </div>
+                            </li>
+                            <img src="img/icon/sliderIconType/type.png" alt="" class="icon-type">
+                        </div>
+                        <div class="text-block">
+                            <h1 class="date">6-10 января</h1>
+                            <p class="price">26 500тг.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/group-active-people-mountain-skis-splitboard-ski-touring-winter-day.jpg">
+                            <li style="--i:0;">
+                                <div>
+                                    <a href="">6</a>
+                                    <p>опыт</p>
+                                </div>
+                            </li>
+                            <li style="--i:1;">
+                                <div>
+                                    <a href="">4</a>
+                                    <p>кворум</p>
+                                </div>
+                            </li>
+                            <li style="--i:2;">
+                                <div>
+                                    <a href="">3</a>
+                                    <p>сложность</p>
+                                </div>
+                            </li>
+                            <li style="--i:3;">
+                                <div>
+                                    <a href="">0/6</a>
+                                    <p>места</p>
+                                </div>
+                            </li>
+                            <img src="img/icon/sliderIconType/type.png" alt="" class="icon-type">
+                        </div>
+                        <div class="text-block">
+                            <h1 class="date">6-10 января</h1>
+                            <p class="price">26 500тг.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/group-active-people-mountain-skis-splitboard-ski-touring-winter-day.jpg">
+                            <li style="--i:0;">
+                                <div>
+                                    <a href="">6</a>
+                                    <p>опыт</p>
+                                </div>
+                            </li>
+                            <li style="--i:1;">
+                                <div>
+                                    <a href="">4</a>
+                                    <p>кворум</p>
+                                </div>
+                            </li>
+                            <li style="--i:2;">
+                                <div>
+                                    <a href="">3</a>
+                                    <p>сложность</p>
+                                </div>
+                            </li>
+                            <li style="--i:3;">
+                                <div>
+                                    <a href="">0/6</a>
+                                    <p>места</p>
+                                </div>
+                            </li>
+                            <img src="img/icon/sliderIconType/type.png" alt="" class="icon-type">
+                        </div>
+                        <div class="text-block">
+                            <h1 class="date">6-10 января</h1>
+                            <p class="price">26 500тг.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/group-active-people-mountain-skis-splitboard-ski-touring-winter-day.jpg">
+                            <li style="--i:0;">
+                                <div>
+                                    <a href="">6</a>
+                                    <p>опыт</p>
+                                </div>
+                            </li>
+                            <li style="--i:1;">
+                                <div>
+                                    <a href="">4</a>
+                                    <p>кворум</p>
+                                </div>
+                            </li>
+                            <li style="--i:2;">
+                                <div>
+                                    <a href="">3</a>
+                                    <p>сложность</p>
+                                </div>
+                            </li>
+                            <li style="--i:3;">
+                                <div>
+                                    <a href="">0/6</a>
+                                    <p>места</p>
+                                </div>
+                            </li>
+                            <img src="img/icon/sliderIconType/type.png" alt="" class="icon-type">
+                        </div>
+                        <div class="text-block">
+                            <h1 class="date">6-10 января</h1>
+                            <p class="price">26 500тг.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/group-active-people-mountain-skis-splitboard-ski-touring-winter-day.jpg">
+                            <li style="--i:0;">
+                                <div>
+                                    <a href="">6</a>
+                                    <p>опыт</p>
+                                </div>
+                            </li>
+                            <li style="--i:1;">
+                                <div>
+                                    <a href="">4</a>
+                                    <p>кворум</p>
+                                </div>
+                            </li>
+                            <li style="--i:2;">
+                                <div>
+                                    <a href="">3</a>
+                                    <p>сложность</p>
+                                </div>
+                            </li>
+                            <li style="--i:3;">
+                                <div>
+                                    <a href="">0/6</a>
+                                    <p>места</p>
+                                </div>
+                            </li>
+                            <img src="img/icon/sliderIconType/type.png" alt="" class="icon-type">
+                        </div>
+                        <div class="text-block">
+                            <h1 class="date">6-10 января</h1>
+                            <p class="price">26 500тг.</p>
+                        </div>
+                    </div>
+                </section>
+                <div class="arrows">
+                    <div class="btn_custom_prev"></div>
+                    <div class="btn_custom_next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-3">
+            <div class="wrap padding-100">
+                <h1 class="title">интернет-магазин</h1>
+                <div class="catalog-item">
+                    <div class="item">
+                        <img src="img/catalog/item1.png" alt="item1">
+                        <div class="text">
+                            <div class="text_box">
+                                <h1>Сплитборды</h1>
+                                <p>Сплитборд – это не распиленная пополам доска и не сноуборд, состоящий из двух частей.
+                                    Сплитборд – это свободный подъем, обратная сторона фрирайда – свободного
+                                    спуска. </p>
+                            </div>
+                            <a class="primary-link" href="#">Каталог</a>
+                        </div>
+                        <span></span>
+                    </div>
+                    <div class="item">
+                        <img src="img/catalog/item2.png" alt="item1">
+                        <div class="text">
+                            <div class="text_box">
+                                <h1>Лавинное снаряжение</h1>
+                                <p>Лавинное оборудование не поможет вам избежать лавины. Здравый смысл и навыки
+                                    обеспечения
+                                    безопасности - это ваша лучшая защита. </p>
+                            </div>
+                            <a class="primary-link" href="#">Каталог</a>
+                        </div>
+                        <span></span>
+                    </div>
+                    <div class="item">
+                        <img src="img/catalog/item3.png" alt="item1">
+                        <div class="text">
+                            <div class="text_box">
+                                <h1>Лыжи</h1>
+                                <p>Широкий нос и хвост позволят тебе парить по пухляку, в то время как
+                                    малый радиус позволят тебе легко контролировать лыжи.</p>
+                            </div>
+                            <a class="primary-link" href="#">Каталог</a>
+                        </div>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrap feedback relative">
+            <h1 class="title">отчеты</h1>
+            <div class="slider">
+                <section class="feedback_reg slider">
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/feedback/item3.png">
+                        </div>
+                        <div class="text-block">
+                            <div class="inner">
+                                <h1 class="date">6 августа 2019</h1>
+                                <p class="price">Новый рекорд на VIII этапе проекта I Run Kazakhst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/feedback/item2.png">
+                        </div>
+                        <div class="text-block">
+                            <div class="inner">
+                                <h1 class="date">15 марта 2017</h1>
+                                <p class="price">Бэккантри Фест 2017</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/feedback/item1.png">
+                        </div>
+                        <div class="text-block">
+                            <div class="inner">
+                                <h1 class="date">13 марта 2017</h1>
+                                <p class="price">Бэккантри поход "Анатау - Сметанинский - Кедровка"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/feedback/item3.png">
+                        </div>
+                        <div class="text-block">
+                            <div class="inner">
+                                <h1 class="date">6 августа 2019</h1>
+                                <p class="price">Новый рекорд на VIII этапе проекта I Run Kazakhst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/feedback/item2.png">
+                        </div>
+                        <div class="text-block">
+                            <div class="inner">
+                                <h1 class="date">6 августа 2019</h1>
+                                <p class="price">Новый рекорд на VIII этапе проекта I Run Kazakhst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-preview-block">
+                            <img class="slide-image-preview"
+                                 src="img/feedback/item1.png">
+                        </div>
+                        <div class="text-block">
+                            <div class="inner">
+                                <h1 class="date">6 августа 2019</h1>
+                                <p class="price">Новый рекорд на VIII этапе проекта I Run Kazakhst</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="arrows">
+                    <div class="btn_custom_prev feedback_prev"></div>
+                    <div class="btn_custom_next feedback_next"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+<footer class="container">
+    <div class="wrap">
+        <img class="logo" src="img/logo-dark.png" alt="logo"/>
+        <div class="text-col">
+            <h4>Активные туры</h4>
+            <a href="">Условия доставки</a>
+            <a href="">Гарантия на товар</a>
+            <a href="">Организация туров</a>
+            <a href="">Как до нас добраться</a>
+            <a href="">Проживание</a>
+            <a href="">Аренда оборудования для скитура</a>
+        </div>
+        <div class="text-col">
+            <h4>Магазин</h4>
+            <a href="">Условия оплаты</a>
+            <a href="">Условия доставки</a>
+            <a href="">Продажа под заказ</a>
+            <a href="">Гарантия на товар</a>
+            <a href="">Контакты</a>
+        </div>
+        <div class="text-col">
+            <h4>Информация</h4>
+            <a href="">Новости</a>
+            <a href="">Парнёры</a>
+            <a href="">Отчёты</a>
+            <a href="">Статьи</a>
+        </div>
+        <div class="form-info">
+            <form action="">
+                <input class="email" type="text" name="email" placeholder="Оставьте свой e-mail">
+                <input class="submit" type="submit" name="button" value="Подписаться">
+            </form>
+            <div class="contact">
+                <div class="phone">
+                    <a href="tel:+7-707-440-11-02">+7-707-440-11-02</a>
+                    <a href="">Заказать звонок</a>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><img src="img/icon/instagram.png" alt=""></li>
+                        <li><img src="img/icon/facebook.png" alt=""></li>
+                        <li><img src="img/icon/vk.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/burger.js"></script>
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/sliders.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/animation.js"></script>
+</body>
+</html>
